@@ -1,0 +1,98 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  color: blue;
+  background-image: url(https://img.freepik.com/free-vector/circuit-board-background-flat-style_52683-15499.jpg?w=2000);
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: whitesmoke;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  font-size: larger;
+  font-weight: 500;
+}
+header ul {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  /* margin-left: 1rem; */
+  width: 70%;
+}
+header ul li {
+  /* border: 1px solid greenyellow; */
+  margin: 0.5rem;
+  cursor: pointer;
+}
+header ul li:hover {
+  color: rgb(248, 175, 67);
+  transition: all ease 0.5s;
+}
+button {
+  display: block;
+  background: none;
+  color: whitesmoke;
+  background-color: rgb(248, 175, 67);
+  padding: 0.5rem;
+  font-size: large;
+  font-weight: 200;
+  cursor: pointer;
+  outline: inherit;
+  width: 10rem;
+  height: fit-content;
+  margin: 1rem;
+}
+button:hover {
+  background-color: blue;
+  transition: all ease 0.5s;
+}
+h1 {
+  /* border: 1px solid red; */
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 900;
+  margin-top: 160px;
+}
+h2 {
+    /* border: 1px solid red; */
+  width: 100%;
+  color: aliceblue;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 500;
+  margin-top: -50px
+}
+
+.mnbtn{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+    
+}
+
+.btnn{
+    background-color: transparent;
+    /* border: none; */
+}
+.btnn:hover{
+    background-color: rgb(248, 175, 67);
+    color:black ;
+}
+.btn:hover{
+    background-color: transparent;
+}
